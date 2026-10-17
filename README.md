@@ -20,25 +20,13 @@ La conception est partie d'un diagramme de classes, le fichier `Mairie.mdj` à l
 
 L'héritage est au cœur du projet : un acte reste un `EvenementCivil`, ce qui permet de tous les manipuler de la même façon, et un `Homme` reste un `Citoyens`.
 
-## L'interface
+## La version finale
 
-La fenêtre principale de la version finale, avec les dix actions de l'état civil et la liste des citoyens :
-
-![La fenêtre principale](docs/01-fenetre-principale.png)
-
-Chaque action demande ses informations une par une :
-
-![Saisie du nom](docs/02-saisie.png)
-
-![Choix du sexe](docs/04-choix-sexe.png)
-
-Et affiche le résultat renvoyé par le contrôleur :
-
-![Liste des citoyens](docs/03-liste-citoyens.png)
+Le dossier `finale/` contient la réécriture du projet en architecture MVC : le modèle y est repris dans le paquet `modele`, les contrôleurs et l'interface graphique Swing arrivent ensuite.
 
 ## État du projet
 
-Le modèle est en ligne. La version finale, avec son découpage en modèle, vue et contrôleurs et son interface graphique Swing, arrive au fur et à mesure dans ce dépôt.
+Le modèle et sa version MVC sont en ligne. L'interface graphique suit.
 
 ## Compiler et lancer
 
